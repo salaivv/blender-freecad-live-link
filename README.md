@@ -7,7 +7,7 @@ Final source code of my article [Build your own Live Links for Blender (and more
 
 ## How it works
 
-The Blender addon creates a listening socket as soon as Blender starts up. Upon clicking on _Export to Blender_ in FreeCAD, a temporary diretory is creater in the system temp folder and an OBJ is exported to this temporary directory. Then FreeCAD will send the full path to the OBJ in this directory to Blender through the socket connection. Blender would then import the model and send back a success message upon which FreeCAD will close the connection and cleanup the temporary directory.
+The Blender addon creates a listening socket as soon as Blender starts up. Upon clicking on _Export to Blender_ in FreeCAD, a temporary directory is created in the system `temp` folder and an OBJ is exported to this temporary directory. Then FreeCAD will send the full path to the exported OBJ to Blender through the socket connection. Blender would then import the model and send back a success message upon which FreeCAD will close the connection and cleanup the temporary directory.
 
 ## Installation
 
