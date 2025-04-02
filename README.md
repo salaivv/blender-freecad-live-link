@@ -17,3 +17,7 @@ The Blender addon creates a listening socket as soon as Blender starts up. Upon 
 ## Usage
 
 Once you have installed the scripts, open a model in FreeCAD and also keep Blender running. Click on the _Blender_ menu in FreeCAD menu bar and click _Export to Blender_. The model will be exported and imported into the running instance of Blender automatically.
+
+## Notes
+
+_Software Versions: FreeCAD 0.20.2 and Blender 3.3 LTS (3.3.7). Kindly use these versions if you face any issues._
